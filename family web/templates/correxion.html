@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <input type="text" onkeyup="envio(this.value)">
+        <h1 id="publicacion"></h1>
+        <h2 id="estado"></h2>
+        
+    </body>
+    <script>
+        function envio(mensaje){
+            var object = new XMLHttpRequest();
+            object.open("POST", "/recibir", true);        
+ 
+            object.onload = function(){
+                var server = JSON.parse(this.responseText);
+                console.log("hola");
+                document.getElementById("estado").innerHTML = server.estado;
+            }
+
+            var envio = new FormData();
+            envio.append('mensaje', mensaje);
+            object.send(envio);
+
+            
+        }
+
+    </script>
+</html>

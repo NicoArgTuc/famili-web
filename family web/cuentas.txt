@@ -1,0 +1,2 @@
+{"nombre": "Nicolas", "password": "kanojo"}
+{"nombre": "Cecilia", "password": "señora"}

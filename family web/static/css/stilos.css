@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+input:focus, input.form-control:focus {
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.container-inbox{
+    font-family: 'Open Sans', sans-serif, Calibri;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: grid;
+    grid-template-columns: 300px auto;
+    height: 90%;
+    min-width: 546px;
+    width: 80%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    /*border: .5px solid rgba(0, 0, 0, 0.3);*/
+    background: white;
+}
+.container-chats-head{
+    display: grid;
+    grid-template-columns: auto auto;
+    /*border-bottom: .5px solid rgba(0, 0, 0, 0.3);*/
+    height: 50px;
+    color: white;
+    background: rgb(83, 83, 253);
+}
+.conversacion-head{
+    height: 50px;
+    display: grid;
+    grid-template-columns: auto 25px;
+    /*background: rgb(151, 151, 255);*/
+    
+}
+.chat-container{
+    display: grid;
+    grid-template-columns: 48px auto;
+    height: 50px;
+    width: 95%;
+    margin: auto;
+}
+.areaDeTexto{
+    width: 90%; 
+    height: auto; 
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto 81px;
+}
+.chat{
+    margin: 5px;
+    height: 50px;
+}
+/*
+.globo{
+    background: rgba(0, 217, 255, 0.267);
+    border-radius: 5px;
+    height: auto;
+    margin-left: 40%;
+    width: auto;
+    position: relative;
+    right: 5px;
+    display: block;
+}*/
+
+.renglon{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    height: 40px;
+    width: 100%;
+    
+}
+.globo{
+    min-height: 20px;
+    max-width: 60%;
+    border-radius: 20px;
+    display: inline-block;
+    position: absolute;
+    padding: 10px;
+}
+.globo1{
+    background: rgba(0, 217, 255, 0.267);
+    right: 20px;
+}
+.globo2{
+    background: rgba(255, 196, 0, 0.267);
+    left: 20px;
+}
+
+
+.parrafo{
+    margin: 0px;
+    width: auto;
+}
+
+
+.foto{
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    background: rgba(0, 60, 255, 0.267);
+}
+.enviar{
+    width: 80px; 
+    height: 39px; 
+    border-bottom-right-radius: 17.5px; 
+    border-top-right-radius: 17.5px; 
+    background: rgb(83, 83, 253); 
+    color: white; display: flex; 
+    justify-content: center; 
+    align-items: center;
+}

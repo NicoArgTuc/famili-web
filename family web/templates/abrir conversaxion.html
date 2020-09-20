@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <body>
+        <div id="conversacion"></div>
+    </body>
+    <script>
+        /*
+        var peticion = new XMLHttpRequest();
+        peticion.open("GET", "conversacion.json", true);
+        peticion.send();
+        document.getElementByIdconversacionById("demo").innerHTML = peticion.responseText;
+        */
+        var myObj, myJSON, text, obj;
+        myObj = { name: "John", age: 31, city: "New York" };
+        myJSON = JSON.stringify(myObj);
+        localStorage.setItem("testJSON", myJSON);
+    </script>
+</html>

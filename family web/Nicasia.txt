@@ -1,0 +1,1 @@
+{"fecha": "7/1/20","conversacion":[{"id": "1","mensaje": "Nicasia","emisor": "Nicolas","hora": "13:40"},{"id": "2","mensaje": "Dime cuando nos vemos","emisor": "Nicolas","hora": "13:40"},{"id": "3","mensaje": "Viernes a la tarde te parece?","emisor": "Nicasia","hora": "13:40"},{"id": "4","mensaje": "En el Monserrat, sobre el arcoris","emisor": "Nicasia","hora": "13:41"}]}

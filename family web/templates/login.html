@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>familyweb</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/stilos.css') }}">
+    </head>
+    <body style="background: orange;">
+        <div>
+            <div class="container-inbox">
+                <h1>Family Web</h1>
+                <form action="processLogin" method="post">
+                    <div><label for="nombre">Nombre de usuario</label></div>
+                    <input type="text" id="nombre" name="nombre">
+                    <div><label for="password">Contraseña</label></div>
+                    <input type="password" id="password" name="password">
+                    <div><button>Ingresar</button></div>
+                </form>
+            </div>
+        </div>
+    </body>
+    <script>
+
+    </script>
+</html>
